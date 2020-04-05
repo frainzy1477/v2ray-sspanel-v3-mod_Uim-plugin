@@ -1,4 +1,4 @@
-FROM rico93/v2ray_v3:caddy_base
+FROM frainzy1477/v2ray_v3:caddy
 
 RUN mkdir /srv/www && mkdir /srv/www/js
 COPY index.html /srv/www/index.html
